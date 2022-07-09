@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "proposal-math-clamp",
+  "description": "Draft specification for number clamping in JavaScript.",
+  "author": "J. S. Choi <jschoi@jschoi.org> (https://jschoi.org/)",
+  "license": "MIT",
+  "repository": "github:js-choi/proposal-math-clamp",
+  "scripts": {
+    "prespec": "mkdir -p out/",
+    "spec": "ecmarkup spec.html out/index.html --assets inline --contributors \"J. S. Choi, Ecma International\" --copyright true --title \"ES Math.clamp (2022)\" --status \"proposal\" --stage 0",
+    "prewatch": "npm run prespec",
+    "watch": "npm run spec -- --watch"
+  },
+  "devDependencies": {
+    "ecmarkup": "^8.0.1"
+  }
+}
