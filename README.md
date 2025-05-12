@@ -1,5 +1,12 @@
 # `Math.clamp` for JavaScript
-ECMAScript Stage-0 Proposal. J. S. Choi, 2021.
+ECMAScript Stage 0 Proposal. J. S. Choi, 2021.
+
+**This proposal has been superseded by the
+[new Math.clamp proposal](https://github.com/tc39/proposal-math-clamp)**
+by Oliver Medhurst (@canadahonk) and Richie Bendall (@richienb).
+
+<details>
+<summary>Old explainer</summary>
 
 ## Rationale
 Clamping is a frequent mathematical function in any programming language
@@ -33,3 +40,5 @@ we would write `Math.clamp(x, 0, 255)`.
 
 (The precedent in C++, C#, Lua, and OpenGL all seems to have the interval
 limits always be inclusive on both sides.)
+
+</details>
